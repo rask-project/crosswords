@@ -1,0 +1,179 @@
+{
+	"BUILD_DIR" : "/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native/Native_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/marssola/Developer/rask-project/BibleGame/Native",
+	"CMAKE_EXECUTABLE" : "/opt/Qt/Tools/CMake/CMake.app/Contents/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/marssola/Developer/rask-project/BibleGame/Native/CMakeLists.txt",
+		"/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/Qt6Config.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtInstallPaths.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/Qt6Targets.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtFeature.cmake",
+		"/opt/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicGitHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicSbomHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
+		"/opt/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"/opt/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
+		"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
+		"/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native/Nativeplugin_NativePlugin_in.cpp"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/marssola/Developer/rask-project/BibleGame",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native/Native_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "Native_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/Users/marssola/Developer/rask-project/BibleGame/Native/Android.h",
+			"MU",
+			"EWIEGA46WW/moc_Android.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native/Native_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native/Native_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"Native_EXPORTS",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_OPENGL_LIB",
+		"QT_QMLINTEGRATION_LIB",
+		"QT_QMLMETA_LIB",
+		"QT_QMLMODELS_LIB",
+		"QT_QMLWORKERSCRIPT_LIB",
+		"QT_QML_LIB",
+		"QT_QUICK_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/marssola/Developer/rask-project/BibleGame/Native",
+		"/opt/Qt/6.8.2/macos/lib/QtQml.framework/Versions/A/Headers/6.8.2",
+		"/opt/Qt/6.8.2/macos/lib/QtQml.framework/Versions/A/Headers/6.8.2/QtQml",
+		"/opt/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/6.8.2",
+		"/opt/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/6.8.2/QtCore",
+		"/opt/Qt/6.8.2/macos/lib/QtCore.framework/Headers",
+		"/opt/Qt/6.8.2/macos/lib/QtCore.framework",
+		"/opt/Qt/6.8.2/macos/mkspecs/macx-clang",
+		"/opt/Qt/6.8.2/macos/include",
+		"/opt/Qt/6.8.2/macos/lib/QtQml.framework/Headers",
+		"/opt/Qt/6.8.2/macos/lib/QtQml.framework",
+		"/opt/Qt/6.8.2/macos/include/QtQmlIntegration",
+		"/opt/Qt/6.8.2/macos/lib/QtNetwork.framework/Headers",
+		"/opt/Qt/6.8.2/macos/lib/QtNetwork.framework",
+		"/opt/Qt/6.8.2/macos/lib/QtQuick.framework/Headers",
+		"/opt/Qt/6.8.2/macos/lib/QtQuick.framework",
+		"/opt/Qt/6.8.2/macos/lib/QtGui.framework/Headers",
+		"/opt/Qt/6.8.2/macos/lib/QtGui.framework",
+		"/opt/Qt/6.8.2/macos/lib/QtQmlMeta.framework/Headers",
+		"/opt/Qt/6.8.2/macos/lib/QtQmlMeta.framework",
+		"/opt/Qt/6.8.2/macos/lib/QtQmlModels.framework/Headers",
+		"/opt/Qt/6.8.2/macos/lib/QtQmlModels.framework",
+		"/opt/Qt/6.8.2/macos/lib/QtQmlWorkerScript.framework/Headers",
+		"/opt/Qt/6.8.2/macos/lib/QtQmlWorkerScript.framework",
+		"/opt/Qt/6.8.2/macos/lib/QtOpenGL.framework/Headers",
+		"/opt/Qt/6.8.2/macos/lib/QtOpenGL.framework",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [ "--output-json" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"/opt/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native/Native_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native/.qt/rcc/qrc_qmake_Native.cpp",
+		"/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native/native_qmltyperegistrations.cpp"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native/CMakeFiles/Native_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/opt/Qt/6.8.2/macos/libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 8,
+	"SETTINGS_FILE" : "/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native/CMakeFiles/Native_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/marssola/Developer/rask-project/BibleGame/Native/Android.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native/.qt/rcc/qrc_qmake_Native.cpp",
+		"/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native/native_qmltyperegistrations.cpp"
+	],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

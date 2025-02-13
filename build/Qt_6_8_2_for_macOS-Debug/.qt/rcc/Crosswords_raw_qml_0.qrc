@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/qt/qml/Game/">
+    <file alias="Main.qml">/Users/marssola/Developer/rask-project/BibleGame/Main.qml</file>
+    <file alias="controls/ButtonAction.qml">/Users/marssola/Developer/rask-project/BibleGame/controls/ButtonAction.qml</file>
+    <file alias="controls/CrosswordsItemDelegate.qml">/Users/marssola/Developer/rask-project/BibleGame/controls/CrosswordsItemDelegate.qml</file>
+    <file alias="controls/HeaderBar.qml">/Users/marssola/Developer/rask-project/BibleGame/controls/HeaderBar.qml</file>
+    <file alias="controls/Page.qml">/Users/marssola/Developer/rask-project/BibleGame/controls/Page.qml</file>
+    <file alias="controls/ScrollablePage.qml">/Users/marssola/Developer/rask-project/BibleGame/controls/ScrollablePage.qml</file>
+    <file alias="controls/TextAlert.qml">/Users/marssola/Developer/rask-project/BibleGame/controls/TextAlert.qml</file>
+    <file alias="pages/CrosswordsGamePage.qml">/Users/marssola/Developer/rask-project/BibleGame/pages/CrosswordsGamePage.qml</file>
+    <file alias="pages/CrosswordsListPage.qml">/Users/marssola/Developer/rask-project/BibleGame/pages/CrosswordsListPage.qml</file>
+  </qresource>
+</RCC>
+

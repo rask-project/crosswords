@@ -1,0 +1,13 @@
+module CrosswordsGame
+linktarget CrosswordsGameplugin
+optional plugin CrosswordsGameplugin
+classname CrosswordsGamePlugin
+typeinfo CrosswordsGame.qmltypes
+prefer :/qt/qml/CrosswordsGame/
+CrosswordsGame 1.0 qml/CrosswordsGame.qml
+Letter 1.0 qml/Letter.qml
+QuestionIndicator 1.0 qml/QuestionIndicator.qml
+QuestionTip 1.0 qml/QuestionTip.qml
+QuestionsArea 1.0 qml/QuestionsArea.qml
+ShowVerseButton 1.0 qml/ShowVerseButton.qml
+

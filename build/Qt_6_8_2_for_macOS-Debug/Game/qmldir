@@ -1,0 +1,13 @@
+module Game
+typeinfo Crosswords.qmltypes
+prefer :/qt/qml/Game/
+Main 1.0 Main.qml
+ButtonAction 1.0 controls/ButtonAction.qml
+CrosswordsItemDelegate 1.0 controls/CrosswordsItemDelegate.qml
+HeaderBar 1.0 controls/HeaderBar.qml
+Page 1.0 controls/Page.qml
+ScrollablePage 1.0 controls/ScrollablePage.qml
+TextAlert 1.0 controls/TextAlert.qml
+CrosswordsGamePage 1.0 pages/CrosswordsGamePage.qml
+CrosswordsListPage 1.0 pages/CrosswordsListPage.qml
+

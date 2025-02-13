@@ -1,0 +1,4 @@
+<resources>
+    <style name="CrosswordsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+</resources>

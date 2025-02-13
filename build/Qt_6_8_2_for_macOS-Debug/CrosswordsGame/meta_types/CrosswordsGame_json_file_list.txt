@@ -1,0 +1,3 @@
+/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/CrosswordsGame/CrosswordsGame_autogen/include/../RVZ4ISEY7V/moc_Crosswords.cpp.json
+/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/CrosswordsGame/CrosswordsGame_autogen/include/../RVZ4ISEY7V/moc_CrosswordsModel.cpp.json
+/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/CrosswordsGame/CrosswordsGame_autogen/include/../RVZ4ISEY7V/moc_CrosswordsResponse.cpp.json

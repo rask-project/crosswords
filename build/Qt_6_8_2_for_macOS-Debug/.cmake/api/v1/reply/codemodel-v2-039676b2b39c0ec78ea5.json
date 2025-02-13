@@ -1,0 +1,499 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c5e39d3a9c1474ba615b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						13,
+						14,
+						15,
+						16,
+						18,
+						19,
+						20,
+						21,
+						22,
+						33,
+						38,
+						39
+					]
+				},
+				{
+					"build" : "CrosswordsGame",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CrosswordsGame-Debug-2585e3b1202bbbbc4f87.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "CrosswordsGame",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						34,
+						35,
+						36,
+						37,
+						40
+					]
+				},
+				{
+					"build" : "Native",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Native-Debug-36f74b11e10d2f14a4c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Native",
+					"targetIndexes" : 
+					[
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32
+					]
+				},
+				{
+					"build" : "resources/icons",
+					"jsonFile" : "directory-resources.icons-Debug-99582a921a50b55fa84b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "resources/icons",
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3
+					],
+					"name" : "Crosswords",
+					"targetIndexes" : 
+					[
+						0,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						33,
+						38,
+						39
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "CrosswordsGame",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						34,
+						35,
+						36,
+						37,
+						40
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Native",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Crosswords::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Crosswords-Debug-cb0865b136024b495507.json",
+					"name" : "Crosswords",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CrosswordsGame::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-CrosswordsGame-Debug-dfb1d72a411505988670.json",
+					"name" : "CrosswordsGame",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CrosswordsGame_autogen::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-CrosswordsGame_autogen-Debug-f5751b157ea3f73c043e.json",
+					"name" : "CrosswordsGame_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CrosswordsGame_autogen_timestamp_deps::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-CrosswordsGame_autogen_timestamp_deps-Debug-7288f815b2039d569227.json",
+					"name" : "CrosswordsGame_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CrosswordsGame_copy_qml::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-CrosswordsGame_copy_qml-Debug-50ed6337f5fcdf99ec1e.json",
+					"name" : "CrosswordsGame_copy_qml",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CrosswordsGame_copy_res::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-CrosswordsGame_copy_res-Debug-2c1f9360f65aa299f724.json",
+					"name" : "CrosswordsGame_copy_res",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CrosswordsGame_qmllint::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-CrosswordsGame_qmllint-Debug-dbbb0b0c3b69c05339a6.json",
+					"name" : "CrosswordsGame_qmllint",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CrosswordsGame_qmllint_json::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-CrosswordsGame_qmllint_json-Debug-8d24561021ee57a88918.json",
+					"name" : "CrosswordsGame_qmllint_json",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CrosswordsGame_qmllint_module::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-CrosswordsGame_qmllint_module-Debug-e8bad3332ee545fea425.json",
+					"name" : "CrosswordsGame_qmllint_module",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CrosswordsGame_qmltyperegistration::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-CrosswordsGame_qmltyperegistration-Debug-dbdc5dd5f0da3650a4ea.json",
+					"name" : "CrosswordsGame_qmltyperegistration",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CrosswordsGameplugin::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-CrosswordsGameplugin-Debug-c062ffc512795d0b08ea.json",
+					"name" : "CrosswordsGameplugin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CrosswordsGameplugin_autogen::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-CrosswordsGameplugin_autogen-Debug-7cf2690ed21b53dcb71a.json",
+					"name" : "CrosswordsGameplugin_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "CrosswordsGameplugin_autogen_timestamp_deps::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-CrosswordsGameplugin_autogen_timestamp_deps-Debug-5d8a6386046c837df8ef.json",
+					"name" : "CrosswordsGameplugin_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Crosswords_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Crosswords_autogen-Debug-fa11f83a31d5957d55c9.json",
+					"name" : "Crosswords_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Crosswords_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Crosswords_autogen_timestamp_deps-Debug-345887111d69e606d827.json",
+					"name" : "Crosswords_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Crosswords_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Crosswords_copy_qml-Debug-371f890156db89e2a723.json",
+					"name" : "Crosswords_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Crosswords_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Crosswords_copy_res-Debug-af662b62ea0748d7c1be.json",
+					"name" : "Crosswords_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Crosswords_icons::@ce5ab3300be1bc96858f",
+					"jsonFile" : "target-Crosswords_icons-Debug-3a6cccee3feb6725d93c.json",
+					"name" : "Crosswords_icons",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Crosswords_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Crosswords_qmlimportscan-Debug-81ede520988eb15318db.json",
+					"name" : "Crosswords_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Crosswords_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Crosswords_qmllint-Debug-2565425daaafdc8a41f1.json",
+					"name" : "Crosswords_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Crosswords_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Crosswords_qmllint_json-Debug-67da54ca7a177aa67248.json",
+					"name" : "Crosswords_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Crosswords_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Crosswords_qmllint_module-Debug-a8735886b8576b75f791.json",
+					"name" : "Crosswords_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Crosswords_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Crosswords_qmltyperegistration-Debug-eb290a88313385312e62.json",
+					"name" : "Crosswords_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Native::@509bb50593089c5e03d6",
+					"jsonFile" : "target-Native-Debug-ff179293950cf7d72c3f.json",
+					"name" : "Native",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Native_autogen::@509bb50593089c5e03d6",
+					"jsonFile" : "target-Native_autogen-Debug-a3ca70ddf4d8090e46db.json",
+					"name" : "Native_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Native_autogen_timestamp_deps::@509bb50593089c5e03d6",
+					"jsonFile" : "target-Native_autogen_timestamp_deps-Debug-20002b2dbeb43929d701.json",
+					"name" : "Native_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Native_qmllint::@509bb50593089c5e03d6",
+					"jsonFile" : "target-Native_qmllint-Debug-e6ec46be0a45242bedfa.json",
+					"name" : "Native_qmllint",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Native_qmllint_json::@509bb50593089c5e03d6",
+					"jsonFile" : "target-Native_qmllint_json-Debug-075d9282d35284e0cbd7.json",
+					"name" : "Native_qmllint_json",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Native_qmllint_module::@509bb50593089c5e03d6",
+					"jsonFile" : "target-Native_qmllint_module-Debug-f7e5dbb6960352e57b60.json",
+					"name" : "Native_qmllint_module",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Native_qmltyperegistration::@509bb50593089c5e03d6",
+					"jsonFile" : "target-Native_qmltyperegistration-Debug-e71565c58b3255773253.json",
+					"name" : "Native_qmltyperegistration",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Nativeplugin::@509bb50593089c5e03d6",
+					"jsonFile" : "target-Nativeplugin-Debug-4b72c13edd20d3b8bf12.json",
+					"name" : "Nativeplugin",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Nativeplugin_autogen::@509bb50593089c5e03d6",
+					"jsonFile" : "target-Nativeplugin_autogen-Debug-8bb8a9eaf975d7c4bc14.json",
+					"name" : "Nativeplugin_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Nativeplugin_autogen_timestamp_deps::@509bb50593089c5e03d6",
+					"jsonFile" : "target-Nativeplugin_autogen_timestamp_deps-Debug-cc9e4b81afa297c34c22.json",
+					"name" : "Nativeplugin_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-1d587b6e651921b18f3d.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "all_qmllint::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-all_qmllint-Debug-180738d97ed84e8c1fe6.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "all_qmllint_json::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-all_qmllint_json-Debug-ce2e2ac0517570e0cce1.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "all_qmllint_module::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-all_qmllint_module-Debug-b41004eed9ee5745d542.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "all_qmltyperegistrations::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-6d4d9e7f55a9a7f1c6a4.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_CrosswordsGame_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_CrosswordsGame_aotstats_target-Debug-67a76df1ce2b0591420b.json",
+					"name" : "module_CrosswordsGame_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_Crosswords_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_Crosswords_aotstats_target-Debug-59a0339ab68b4fb8f7b6.json",
+					"name" : "module_Crosswords_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "qt_internal_plugins::@b24ccd8489c9b54a18b4",
+					"jsonFile" : "target-qt_internal_plugins-Debug-72f05ab0b83f11ae372f.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug",
+		"source" : "/Users/marssola/Developer/rask-project/BibleGame"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

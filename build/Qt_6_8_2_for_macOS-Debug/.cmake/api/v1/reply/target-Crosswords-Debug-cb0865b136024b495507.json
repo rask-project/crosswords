@@ -1,0 +1,7862 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Crosswords"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"qt6_add_qml_module",
+			"qt_add_qml_module",
+			"add_dependencies",
+			"_qt_internal_qml_copy_files_to_build_dir",
+			"qt6_target_qml_sources",
+			"_qt_internal_scan_qml_imports",
+			"_qt_internal_generate_deploy_qml_imports_script",
+			"cmake_language",
+			"_qt_internal_finalize_executable",
+			"qt6_finalize_target",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"__qt_propagate_generated_resource",
+			"qt6_extract_metatypes",
+			"_qt_internal_target_enable_qmlcachegen",
+			"_qt_internal_expose_deferred_files_to_ide"
+		],
+		"files" : 
+		[
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/Qt6Config.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6QmlMeta/Qt6QmlMetaTargets.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake",
+			"/opt/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"/opt/Qt/6.8.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:792:EVAL",
+			"resources/icons/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 945,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 646,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 695,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 190,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 55,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 62,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 43,
+				"parent" : 10
+			},
+			{
+				"file" : 9,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 45,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 145,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 17
+			},
+			{
+				"file" : 6,
+				"parent" : 18
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 55,
+				"parent" : 19
+			},
+			{
+				"file" : 5,
+				"parent" : 20
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 62,
+				"parent" : 21
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 10,
+				"line" : 1241,
+				"parent" : 23
+			},
+			{
+				"command" : 5,
+				"file" : 10,
+				"line" : 591,
+				"parent" : 24
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 145,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 26
+			},
+			{
+				"file" : 12,
+				"parent" : 27
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 58,
+				"parent" : 28
+			},
+			{
+				"file" : 11,
+				"parent" : 29
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 62,
+				"parent" : 30
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 145,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 32
+			},
+			{
+				"file" : 14,
+				"parent" : 33
+			},
+			{
+				"command" : 7,
+				"file" : 14,
+				"line" : 55,
+				"parent" : 34
+			},
+			{
+				"file" : 13,
+				"parent" : 35
+			},
+			{
+				"command" : 6,
+				"file" : 13,
+				"line" : 62,
+				"parent" : 36
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 647,
+				"parent" : 2
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 145,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 76,
+				"parent" : 39
+			},
+			{
+				"file" : 16,
+				"parent" : 40
+			},
+			{
+				"command" : 7,
+				"file" : 16,
+				"line" : 57,
+				"parent" : 41
+			},
+			{
+				"file" : 15,
+				"parent" : 42
+			},
+			{
+				"command" : 6,
+				"file" : 15,
+				"line" : 62,
+				"parent" : 43
+			},
+			{
+				"command" : 15,
+				"file" : 10,
+				"line" : 896,
+				"parent" : 24
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 3448,
+				"parent" : 45
+			},
+			{
+				"command" : 13,
+				"file" : 10,
+				"line" : 2859,
+				"parent" : 46
+			},
+			{
+				"command" : 14,
+				"file" : 10,
+				"line" : 3454,
+				"parent" : 45
+			},
+			{
+				"command" : 13,
+				"file" : 10,
+				"line" : 2859,
+				"parent" : 48
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 20,
+				"file" : 17,
+				"line" : 1,
+				"parent" : 50
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 823,
+				"parent" : 51
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 745,
+				"parent" : 52
+			},
+			{
+				"command" : 17,
+				"file" : 0,
+				"line" : 745,
+				"parent" : 53
+			},
+			{
+				"command" : 16,
+				"file" : 10,
+				"line" : 4324,
+				"parent" : 54
+			},
+			{
+				"command" : 13,
+				"file" : 10,
+				"line" : 4102,
+				"parent" : 55
+			},
+			{
+				"file" : 18
+			},
+			{
+				"command" : 22,
+				"file" : 18,
+				"line" : 26,
+				"parent" : 57
+			},
+			{
+				"command" : 21,
+				"file" : 0,
+				"line" : 406,
+				"parent" : 58
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 2463,
+				"parent" : 59
+			},
+			{
+				"command" : 24,
+				"file" : 10,
+				"line" : 785,
+				"parent" : 24
+			},
+			{
+				"command" : 23,
+				"file" : 10,
+				"line" : 3830,
+				"parent" : 61
+			},
+			{
+				"command" : 23,
+				"file" : 10,
+				"line" : 3855,
+				"parent" : 61
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2491,
+				"parent" : 59
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 2089,
+				"parent" : 64
+			},
+			{
+				"command" : 22,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 21,
+				"file" : 0,
+				"line" : 406,
+				"parent" : 66
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2491,
+				"parent" : 67
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 2089,
+				"parent" : 68
+			},
+			{
+				"command" : 27,
+				"file" : 10,
+				"line" : 3655,
+				"parent" : 61
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 1500,
+				"parent" : 70
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3821,
+				"parent" : 61
+			},
+			{
+				"command" : 22,
+				"file" : 10,
+				"line" : 839,
+				"parent" : 24
+			},
+			{
+				"command" : 21,
+				"file" : 0,
+				"line" : 406,
+				"parent" : 73
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2491,
+				"parent" : 74
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 2089,
+				"parent" : 75
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3175,
+				"parent" : 45
+			},
+			{
+				"command" : 28,
+				"file" : 10,
+				"line" : 3312,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 1710,
+				"parent" : 78
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3368,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3175,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3368,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3175,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3368,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3175,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3368,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3175,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3368,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3175,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3368,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3175,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3368,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3175,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3368,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3175,
+				"parent" : 45
+			},
+			{
+				"command" : 25,
+				"file" : 10,
+				"line" : 3368,
+				"parent" : 45
+			},
+			{
+				"command" : 22,
+				"file" : 10,
+				"line" : 3470,
+				"parent" : 45
+			},
+			{
+				"command" : 21,
+				"file" : 0,
+				"line" : 406,
+				"parent" : 97
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2491,
+				"parent" : 98
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 2089,
+				"parent" : 99
+			},
+			{
+				"command" : 22,
+				"file" : 10,
+				"line" : 3506,
+				"parent" : 45
+			},
+			{
+				"command" : 21,
+				"file" : 0,
+				"line" : 406,
+				"parent" : 101
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2491,
+				"parent" : 102
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 2089,
+				"parent" : 103
+			},
+			{
+				"command" : 29,
+				"file" : 0,
+				"line" : 817,
+				"parent" : 51
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 2212,
+				"parent" : 105
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 38,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMETA_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLWORKERSCRIPT_LIB"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_SQL_LIB"
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtCore.framework"
+				},
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtQml.framework"
+				},
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtNetwork.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtQuick.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtGui.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtQmlMeta.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtQmlModels.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtQmlWorkerScript.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtOpenGL.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtSql.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Crosswords_autogen/include"
+				},
+				{
+					"backtrace" : 62,
+					"path" : "/Users/marssola/Developer/rask-project/BibleGame"
+				},
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtQml.framework/Versions/A/Headers/6.8.2"
+				},
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtQml.framework/Versions/A/Headers/6.8.2/QtQml"
+				},
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/6.8.2"
+				},
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/Headers/6.8.2/QtCore"
+				},
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtCore.framework/Headers"
+				},
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/mkspecs/macx-clang"
+				},
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/include"
+				},
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtQml.framework/Headers"
+				},
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 63,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtNetwork.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtQuick.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtGui.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtQmlMeta.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtQmlModels.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtQmlWorkerScript.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtOpenGL.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/Qt/6.8.2/macos/lib/QtSql.framework/Headers"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					38,
+					38
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				5,
+				6,
+				8,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				26,
+				27
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 47,
+			"id" : "Crosswords_copy_qml::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 49,
+			"id" : "Crosswords_copy_res::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "Crosswords_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 60,
+			"id" : "Crosswords_icons::@ce5ab3300be1bc96858f"
+		},
+		{
+			"id" : "Crosswords_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Crosswords_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Crosswords::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/tmp"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-F/opt/Qt/6.8.2/macos/lib",
+				"role" : "frameworkPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/Qt/6.8.2/macos/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/Qt/6.8.2/macos/lib/QtQuick.framework/Versions/A/QtQuick",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/Qt/6.8.2/macos/lib/QtSql.framework/Versions/A/QtSql",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/opt/Qt/6.8.2/macos/lib/QtQmlMeta.framework/Versions/A/QtQmlMeta",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/opt/Qt/6.8.2/macos/lib/QtQmlWorkerScript.framework/Versions/A/QtQmlWorkerScript",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/opt/Qt/6.8.2/macos/lib/QtQmlModels.framework/Versions/A/QtQmlModels",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/opt/Qt/6.8.2/macos/lib/QtQml.framework/Versions/A/QtQml",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/opt/Qt/6.8.2/macos/lib/QtNetwork.framework/Versions/A/QtNetwork",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/opt/Qt/6.8.2/macos/lib/QtOpenGL.framework/Versions/A/QtOpenGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/opt/Qt/6.8.2/macos/lib/QtGui.framework/Versions/A/QtGui",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework AGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-framework AppKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-framework OpenGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-framework ImageIO",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "-framework Metal",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/opt/Qt/6.8.2/macos/lib/QtCore.framework/Versions/A/QtCore",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "-framework IOKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "-framework DiskArbitration",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "-framework UniformTypeIdentifiers",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Crosswords",
+	"nameOnDisk" : "Crosswords",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				1085,
+				1104,
+				1105,
+				1106,
+				1107,
+				1108,
+				1109,
+				1110,
+				1111,
+				1112,
+				1113
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				5,
+				6,
+				8,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				26,
+				27
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				4,
+				7,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				29,
+				1077,
+				1080,
+				1083,
+				1084
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				28,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424,
+				425,
+				426,
+				427,
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441,
+				442,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				451,
+				452,
+				453,
+				454,
+				455,
+				456,
+				457,
+				458,
+				459,
+				460,
+				461,
+				462,
+				463,
+				464,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				479,
+				480,
+				481,
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				488,
+				489,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				499,
+				500,
+				501,
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				525,
+				526,
+				527,
+				528,
+				529,
+				530,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				543,
+				544,
+				545,
+				546,
+				547,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				554,
+				555,
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				562,
+				563,
+				564,
+				565,
+				566,
+				567,
+				568,
+				569,
+				570,
+				571,
+				572,
+				573,
+				574,
+				575,
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				582,
+				583,
+				584,
+				585,
+				586,
+				587,
+				588,
+				589,
+				590,
+				591,
+				592,
+				593,
+				594,
+				595,
+				596,
+				597,
+				598,
+				599,
+				600,
+				601,
+				602,
+				603,
+				604,
+				605,
+				606,
+				607,
+				608,
+				609,
+				610,
+				611,
+				612,
+				613,
+				614,
+				615,
+				616,
+				617,
+				618,
+				619,
+				620,
+				621,
+				622,
+				623,
+				624,
+				625,
+				626,
+				627,
+				628,
+				629,
+				630,
+				631,
+				632,
+				633,
+				634,
+				635,
+				636,
+				637,
+				638,
+				639,
+				640,
+				641,
+				642,
+				643,
+				644,
+				645,
+				646,
+				647,
+				648,
+				649,
+				650,
+				651,
+				652,
+				653,
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				660,
+				661,
+				662,
+				663,
+				664,
+				665,
+				666,
+				667,
+				668,
+				669,
+				670,
+				671,
+				672,
+				673,
+				674,
+				675,
+				676,
+				677,
+				678,
+				679,
+				680,
+				681,
+				682,
+				683,
+				684,
+				685,
+				686,
+				687,
+				688,
+				689,
+				690,
+				691,
+				692,
+				693,
+				694,
+				695,
+				696,
+				697,
+				698,
+				699,
+				700,
+				701,
+				702,
+				703,
+				704,
+				705,
+				706,
+				707,
+				708,
+				709,
+				710,
+				711,
+				712,
+				713,
+				714,
+				715,
+				716,
+				717,
+				718,
+				719,
+				720,
+				721,
+				722,
+				723,
+				724,
+				725,
+				726,
+				727,
+				728,
+				729,
+				730,
+				731,
+				732,
+				733,
+				734,
+				735,
+				736,
+				737,
+				738,
+				739,
+				740,
+				741,
+				742,
+				743,
+				744,
+				745,
+				746,
+				747,
+				748,
+				749,
+				750,
+				751,
+				752,
+				753,
+				754,
+				755,
+				756,
+				757,
+				758,
+				759,
+				760,
+				761,
+				762,
+				763,
+				764,
+				765,
+				766,
+				767,
+				768,
+				769,
+				770,
+				771,
+				772,
+				773,
+				774,
+				775,
+				776,
+				777,
+				778,
+				779,
+				780,
+				781,
+				782,
+				783,
+				784,
+				785,
+				786,
+				787,
+				788,
+				789,
+				790,
+				791,
+				792,
+				793,
+				794,
+				795,
+				796,
+				797,
+				798,
+				799,
+				800,
+				801,
+				802,
+				803,
+				804,
+				805,
+				806,
+				807,
+				808,
+				809,
+				810,
+				811,
+				812,
+				813,
+				814,
+				815,
+				816,
+				817,
+				818,
+				819,
+				820,
+				821,
+				822,
+				823,
+				824,
+				825,
+				826,
+				827,
+				828,
+				829,
+				830,
+				831,
+				832,
+				833,
+				834,
+				835,
+				836,
+				837,
+				838,
+				839,
+				840,
+				841,
+				842,
+				843,
+				844,
+				845,
+				846,
+				847,
+				848,
+				849,
+				850,
+				851,
+				852,
+				853,
+				854,
+				855,
+				856,
+				857,
+				858,
+				859,
+				860,
+				861,
+				862,
+				863,
+				864,
+				865,
+				866,
+				867,
+				868,
+				869,
+				870,
+				871,
+				872,
+				873,
+				874,
+				875,
+				876,
+				877,
+				878,
+				879,
+				880,
+				881,
+				882,
+				883,
+				884,
+				885,
+				886,
+				887,
+				888,
+				889,
+				890,
+				891,
+				892,
+				893,
+				894,
+				895,
+				896,
+				897,
+				898,
+				899,
+				900,
+				901,
+				902,
+				903,
+				904,
+				905,
+				906,
+				907,
+				908,
+				909,
+				910,
+				911,
+				912,
+				913,
+				914,
+				915,
+				916,
+				917,
+				918,
+				919,
+				920,
+				921,
+				922,
+				923,
+				924,
+				925,
+				926,
+				927,
+				928,
+				929,
+				930,
+				931,
+				932,
+				933,
+				934,
+				935,
+				936,
+				937,
+				938,
+				939,
+				940,
+				941,
+				942,
+				943,
+				944,
+				945,
+				946,
+				947,
+				948,
+				949,
+				950,
+				951,
+				952,
+				953,
+				954,
+				955,
+				956,
+				957,
+				958,
+				959,
+				960,
+				961,
+				962,
+				963,
+				964,
+				965,
+				966,
+				967,
+				968,
+				969,
+				970,
+				971,
+				972,
+				973,
+				974,
+				975,
+				976,
+				977,
+				978,
+				979,
+				980,
+				981,
+				982,
+				983,
+				984,
+				985,
+				986,
+				987,
+				988,
+				989,
+				990,
+				991,
+				992,
+				993,
+				994,
+				995,
+				996,
+				997,
+				998,
+				999,
+				1000,
+				1001,
+				1002,
+				1003,
+				1004,
+				1005,
+				1006,
+				1007,
+				1008,
+				1009,
+				1010,
+				1011,
+				1012,
+				1013,
+				1014,
+				1015,
+				1016,
+				1017,
+				1018,
+				1019,
+				1020,
+				1021,
+				1022,
+				1023,
+				1024,
+				1025,
+				1026,
+				1027,
+				1028,
+				1029,
+				1030,
+				1031,
+				1032,
+				1033,
+				1034,
+				1035,
+				1036,
+				1037,
+				1038,
+				1039,
+				1040,
+				1041,
+				1042,
+				1043,
+				1044,
+				1045,
+				1046,
+				1047,
+				1048,
+				1049,
+				1050,
+				1051,
+				1052,
+				1053,
+				1054,
+				1055,
+				1056,
+				1057,
+				1058,
+				1059,
+				1060,
+				1061,
+				1062,
+				1063,
+				1064,
+				1065,
+				1066,
+				1067,
+				1068,
+				1069,
+				1070,
+				1071,
+				1072,
+				1073,
+				1074,
+				1075,
+				1076,
+				1078,
+				1079,
+				1081,
+				1082
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1086,
+				1087,
+				1088,
+				1089,
+				1090,
+				1091,
+				1092,
+				1093,
+				1094,
+				1095,
+				1096,
+				1097,
+				1098,
+				1099,
+				1100,
+				1101,
+				1102,
+				1103
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/Crosswords_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/resources/icons/.qt/rcc/qrc_icons.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 69,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.qt/rcc/qrc_resources.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/meta_types/qt6crosswords_debug_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 72,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/crosswords_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 76,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.qt/rcc/qrc_qmake_Game.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"path" : "Main.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 79,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 80,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_Main_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 81,
+			"path" : "controls/ButtonAction.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 82,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_controls/ButtonAction_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"path" : "controls/CrosswordsItemDelegate.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 84,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_controls/CrosswordsItemDelegate_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 85,
+			"path" : "controls/HeaderBar.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 86,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_controls/HeaderBar_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 87,
+			"path" : "controls/Page.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 88,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_controls/Page_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 89,
+			"path" : "controls/ScrollablePage.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 90,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_controls/ScrollablePage_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 91,
+			"path" : "controls/TextAlert.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 92,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_controls/TextAlert_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 93,
+			"path" : "pages/CrosswordsGamePage.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 94,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_pages/CrosswordsGamePage_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 95,
+			"path" : "pages/CrosswordsListPage.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_pages/CrosswordsListPage_qml.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 100,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.qt/rcc/qrc_Crosswords_raw_qml_0.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.qt/rcc/qrc_Crosswords_raw_qml_0_extra_qmldirs.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/resources/icons/.qt/rcc/icons.qrc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/index.theme",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/360.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/3d-rotation.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/4k.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/access-alarms.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/access-alarm.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/accessibility-new.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/accessibility.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/accessible-forward.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/accessible.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/access-time.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/account-balance.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/account-balance-wallet.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/account-box.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/account-circle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/ac-unit.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/adb.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add-alarm.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add-alert.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add-a-photo.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add-box.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add-circle-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add-circle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add-comment.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add-location.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add-photo-alternate.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add-shopping-cart.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add-to-home-screen.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add-to-photos.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/add-to-queue.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/adjust.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/airline-seat-flat-angled.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/airline-seat-flat.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/airline-seat-individual-suite.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/airline-seat-legroom-extra.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/airline-seat-legroom-normal.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/airline-seat-legroom-reduced.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/airline-seat-recline-extra.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/airline-seat-recline-normal.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/airplanemode-active.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/airplanemode-inactive.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/airplay.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/airport-shuttle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/alarm-add.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/alarm-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/alarm-on.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/alarm.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/album.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/all-inbox.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/all-inclusive.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/all-out.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/alternate-email.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/android.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/announcement.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/apps.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/archive.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/arrow-back-ios.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/arrow-back.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/arrow-downward.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/arrow-drop-down-circle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/arrow-drop-down.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/arrow-drop-up.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/arrow-forward-ios.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/arrow-forward.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/arrow-left.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/arrow-right-alt.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/arrow-right.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/arrow-upward.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/art-track.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/aspect-ratio.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/assessment.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/assignment-ind.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/assignment-late.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/assignment-returned.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/assignment-return.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/assignment.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/assignment-turned-in.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/assistant-photo.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/assistant.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/atm.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/attach-file.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/attachment.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/attach-money.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/audiotrack.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/autorenew.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/av-timer.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/backspace.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/backup.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/ballot.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/bar-chart.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-20.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-30.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-50.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-60.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-80.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-90.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-alert.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-charging-20.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-charging-30.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-charging-50.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-charging-60.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-charging-80.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-charging-90.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-charging-full.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-full.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-std.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/battery-unknown.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/beach-access.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/beenhere.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/block.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/bluetooth-audio.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/bluetooth-connected.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/bluetooth-disabled.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/bluetooth-searching.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/bluetooth.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/blur-circular.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/blur-linear.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/blur-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/blur-on.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/bookmark-border.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/bookmarks.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/bookmark.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/book.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/border-all.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/border-bottom.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/border-clear.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/border-color.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/border-horizontal.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/border-inner.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/border-left.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/border-outer.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/border-right.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/border-style.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/border-top.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/border-vertical.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/branding-watermark.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/brightness-1.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/brightness-2.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/brightness-3.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/brightness-4.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/brightness-5.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/brightness-6.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/brightness-7.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/brightness-auto.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/brightness-high.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/brightness-low.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/brightness-medium.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/broken-image.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/brush.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/bubble-chart.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/bug-report.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/build.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/burst-mode.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/business-center.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/business.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cached.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cake.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/calendar-today.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/calendar-view-day.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/call-end.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/call-made.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/call-merge.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/call-missed-outgoing.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/call-missed.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/call-received.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/call-split.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/call.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/call-to-action.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/camera-alt.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/camera-enhance.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/camera-front.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/camera-rear.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/camera-roll.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/camera.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cancel-presentation.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cancel.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/card-giftcard.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/card-membership.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/card-travel.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/casino.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cast-connected.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cast-for-education.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cast.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/category.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cell-wifi.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/center-focus-strong.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/center-focus-weak.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/change-history.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/chat-bubble-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/chat-bubble.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/chat.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/check-box-outline-blank.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/check-box.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/check-circle-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/check-circle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/check.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/chevron-left.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/chevron-right.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/child-care.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/child-friendly.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/chrome-reader-mode.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/class.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/clear-all.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/clear.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/closed-caption.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/close.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cloud-circle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cloud-done.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cloud-download.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cloud-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cloud-queue.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cloud.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/cloud-upload.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/code.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/collections-bookmark.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/collections.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/colorize.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/color-lens.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/comment.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/commute.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/compare-arrows.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/compare.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/compass-calibration.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/computer.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/confirmation-number.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/contact-mail.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/contact-phone.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/contacts.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/contact-support.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/control-camera.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/control-point-duplicate.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/control-point.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/copyright.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/create-new-folder.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/create.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/credit-card.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/crop-16-9.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/crop-3-2.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/crop-5-4.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/crop-7-5.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/crop-din.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/crop-free.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/crop-landscape.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/crop-original.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/crop-portrait.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/crop-rotate.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/crop-square.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/crop.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/dashboard.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/data-usage.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/date-range.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/dehaze.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/delete-forever.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/delete-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/delete.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/delete-sweep.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/departure-board.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/description.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/desktop-access-disabled.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/desktop-mac.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/desktop-windows.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/details.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/developer-board.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/developer-mode.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/device-hub.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/devices-other.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/devices.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/device-unknown.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/dialer-sip.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/dialpad.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/directions-bike.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/directions-boat.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/directions-bus.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/directions-car.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/directions-railway.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/directions-run.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/directions-subway.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/directions.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/directions-transit.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/directions-walk.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/disc-full.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/dns.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/dock.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/domain-disabled.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/domain.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/done-all.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/done-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/done.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/donut-large.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/donut-small.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/drafts.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/drag-handle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/drag-indicator.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/drive-eta.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/duo.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/dvr.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/edit-attributes.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/edit-location.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/edit.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/eject.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/email.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/enhanced-encryption.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/equalizer.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/error-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/error.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/euro-symbol.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/event-available.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/event-busy.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/event-note.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/event-seat.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/event.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/ev-station.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/exit-to-app.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/expand-less.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/expand-more.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/explicit.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/explore-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/explore.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/exposure-neg-1.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/exposure-neg-2.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/exposure-plus-1.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/exposure-plus-2.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/exposure.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/exposure-zero.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/extension.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/face.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/fastfood.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/fast-forward.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/fast-rewind.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/favorite-border.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/favorite.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/featured-play-list.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/featured-video.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/feedback.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/fiber-dvr.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/fiber-manual-record.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/fiber-new.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/fiber-pin.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/fiber-smart-record.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/file-copy.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-1.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-2.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-3.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-4.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-5.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-6.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-7.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-8.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-9-plus.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-9.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-b-and-w.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-center-focus.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-drama.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-frames.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-hdr.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-list.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-none.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-tilt-shift.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/filter-vintage.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/find-in-page.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/find-replace.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/fingerprint.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/first-page.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/fitness-center.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/flag.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/flare.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/flash-auto.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/flash-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/flash-on.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/flight-land.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/flight.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/flight-takeoff.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/flip.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/flip-to-back.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/flip-to-front.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/folder-open.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/folder-shared.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/folder-special.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/folder.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/font-download.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-align-center.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-align-justify.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-align-left.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-align-right.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-bold.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-clear.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-color-fill.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-color-reset.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-color-text.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-indent-decrease.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-indent-increase.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-italic.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-line-spacing.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-list-bulleted.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-list-numbered-rtl.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-list-numbered.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-paint.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-quote.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-shapes.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-size.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-strikethrough.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-textdirection-l-to-r.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-textdirection-r-to-l.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/format-underlined.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/forum.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/forward-10.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/forward-30.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/forward-5.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/forward.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/free-breakfast.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/fullscreen-exit.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/fullscreen.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/functions.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/gamepad.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/games.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/gavel.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/gesture.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/get-app.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/gif.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/golf-course.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/gps-fixed.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/gps-not-fixed.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/gps-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/grade.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/gradient.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/grain.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/graphic-eq.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/grid-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/grid-on.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/group-add.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/group.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/group-work.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/g-translate.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/hdr-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/hdr-on.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/hdr-strong.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/hdr-weak.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/hd.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/headset-mic.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/headset.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/healing.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/hearing.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/help-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/help.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/hide-password.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/highlight-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/highlight.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/high-quality.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/history.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/home.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/horizontal-split.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/hotel.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/hot-tub.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/hourglass-empty.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/hourglass-full.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/how-to-reg.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/how-to-vote.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/https.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/http.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/image-aspect-ratio.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/image-search.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/image.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/important-devices.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/import-contacts.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/import-export.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/inbox.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/indeterminate-check-box.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/info.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/input.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/insert-chart-outlined.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/insert-chart.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/insert-comment.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/insert-drive-file.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/insert-emoticon.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/insert-invitation.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/insert-link.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/insert-photo.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/invert-colors-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/invert-colors.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/iso.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/keyboard-arrow-down.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/keyboard-arrow-left.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/keyboard-arrow-right.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/keyboard-arrow-up.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/keyboard-backspace.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/keyboard-capslock.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/keyboard-hide.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/keyboard-return.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/keyboard.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/keyboard-tab.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/keyboard-voice.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/kitchen.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/label-important.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/label-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/label.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/landscape.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/language.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/laptop-chromebook.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/laptop-mac.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/laptop.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/laptop-windows.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/last-page.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/launch.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/layers-clear.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/layers.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/leak-add.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/leak-remove.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/lens.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/library-add.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/library-books.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/library-music.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/linear-scale.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/line-style.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/line-weight.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/linked-camera.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/link-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/link.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/list-alt.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/list.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/live-help.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/live-tv.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-activity.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-airport.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-atm.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-cafe.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-car-wash.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-convenience-store.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-dining.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-drink.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-florist.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-gas-station.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-grocery-store.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-hospital.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-hotel.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-laundry-service.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-library.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-mall.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-movies.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-offer.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-parking.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-pharmacy.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-phone.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-pizza.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-play.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-post-office.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-printshop.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-see.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-shipping.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/local-taxi.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/location-city.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/location-disabled.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/location-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/location-on.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/location-searching.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/lock-open.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/lock.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/looks-3.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/looks-4.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/looks-5.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/looks-6.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/looks-one.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/looks.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/looks-two.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/loop.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/loupe.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/low-priority.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/loyalty.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/mail-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/mail.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/map.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/markunread-mailbox.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/markunread.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/maximize.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/meeting-room.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/memory.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/menu.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/merge-type.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/message.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/mic-none.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/mic-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/mic.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/minimize.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/missed-video-call.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/mms.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/mobile-friendly.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/mobile-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/mobile-screen-share.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/mode-comment.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/monetization-on.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/money-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/money.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/monochrome-photos.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/mood-bad.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/mood.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/more-horiz.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/more.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/more-vert.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/motorcycle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/mouse.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/move-to-inbox.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/movie-creation.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/movie-filter.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/movie.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/multiline-chart.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/music-note.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/music-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/music-video.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/my-location.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/nature-people.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/nature.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/navigate-before.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/navigate-next.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/navigation.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/near-me.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/network-cell.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/network-check.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/network-locked.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/network-wifi.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/new-releases.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/next-week.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/nfc.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/no-encryption.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/no-meeting-room.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/no-sim.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/note-add.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/notes.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/note.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/notification-important.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/notifications-active.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/notifications-none.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/notifications-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/notifications-paused.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/notifications.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/not-interested.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/not-listed-location.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/offline-bolt.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/offline-pin.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/ondemand-video.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/opacity.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/open-in-browser.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/open-in-new.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/open-with.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/outlined-flag.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/pages.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/pageview.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/palette.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/panorama-fish-eye.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/panorama-horizontal.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/panorama.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/panorama-vertical.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/panorama-wide-angle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/pan-tool.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/party-mode.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/pause-circle-filled.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/pause-circle-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/pause-presentation.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/pause.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/payment.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/people-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/people.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/perm-camera-mic.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/perm-contact-calendar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/perm-data-setting.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/perm-device-information.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/perm-identity.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/perm-media.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/perm-phone-msg.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/perm-scan-wifi.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/person-add-disabled.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/person-add.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/personal-video.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/person-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/person-pin-circle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/person-pin.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/person.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/pets.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phone-android.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phone-bluetooth-speaker.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phone-callback.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phone-forwarded.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phone-in-talk.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phone-iphone.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phonelink-erase.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phonelink-lock.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phonelink-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phonelink-ring.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phonelink-setup.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phonelink.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phone-locked.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phone-missed.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phone-paused.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/phone.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/photo-album.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/photo-camera.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/photo-filter.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/photo-library.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/photo-size-select-actual.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/photo-size-select-large.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/photo-size-select-small.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/photo.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/picture-as-pdf.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/picture-in-picture-alt.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/picture-in-picture.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/pie-chart.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/pin-drop.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/place.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/play-arrow.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/play-circle-filled.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/play-circle-filled-white.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/play-circle-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/play-for-work.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/playlist-add-check.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/playlist-add.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/playlist-play.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/plus-one.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/poll.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/polymer.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/pool.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/portable-wifi-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/portrait.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/power-input.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/power-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/power-settings-new.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/power.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/pregnant-woman.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/present-to-all.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/print-disabled.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/print.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/priority-high.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/public.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/publish.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/query-builder.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/question-answer.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/queue-music.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/queue-play-next.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/queue.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/radio-button-checked.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/radio-button-unchecked.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/radio.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/rate-review.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/receipt.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/recent-actors.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/record-voice-over.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/redeem.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/redo.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/refresh.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/remove-circle-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/remove-circle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/remove-from-queue.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/remove-red-eye.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/remove-shopping-cart.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/remove.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/reorder.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/repeat-one.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/repeat.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/replay-10.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/replay-30.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/replay-5.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/replay.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/reply-all.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/reply.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/report-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/report-problem.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/report.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/restaurant-menu.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/restaurant.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/restore-from-trash.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/restore-page.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/restore.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/ring-volume.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/room-service.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/room.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/rotate-90-degrees-ccw.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/rotate-left.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/rotate-right.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/rounded-corner.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/router.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/rowing.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/rss-feed.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/rv-hookup.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/satellite.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/save-alt.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/save.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/scanner.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/scatter-plot.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/schedule.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/school.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/score.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/screen-lock-landscape.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/screen-lock-portrait.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/screen-lock-rotation.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/screen-rotation.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/screen-share.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sd-card.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sd-storage.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/search.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/security.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/select-all.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/send.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sentiment-neutral.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sentiment-dissatisfied.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sentiment-satisfied-alt.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sentiment-satisfied.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sentiment-very-dissatisfied.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sentiment-very-satisfied.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-applications.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-backup-restore.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-bluetooth.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-brightness.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-cell.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-ethernet.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-input-antenna.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-input-component.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-input-composite.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-input-hdmi.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-input-svideo.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-overscan.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-phone.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-power.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-remote.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-system-daydream.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/settings-voice.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/share.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/shopping-basket.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/shopping-cart.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/shop.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/shop-two.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/short-text.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/show-chart.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/show-password.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/shuffle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/shutter-speed.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-0-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-1-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-2-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-3-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-4-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-alt.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-connected-no-internet-0-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-connected-no-internet-1-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-connected-no-internet-2-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-connected-no-internet-3-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-connected-no-internet-4-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-no-sim.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-null.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-cellular-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-wifi-0-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-wifi-1-bar-lock.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-wifi-1-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-wifi-2-bar-lock.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-wifi-2-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-wifi-3-bar-lock.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-wifi-3-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-wifi-4-bar-lock.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-wifi-4-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/signal-wifi-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sim-card.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/skip-next.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/skip-previous.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/slideshow.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/slow-motion-video.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/smartphone.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/smoke-free.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/smoking-rooms.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sms-failed.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sms.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/snooze.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sort-by-alpha.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sort.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/space-bar.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/spa.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/speaker-group.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/speaker-notes-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/speaker-notes.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/speaker-phone.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/speaker.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/spellcheck.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/star-border.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/star-half.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/stars.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/star.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/stay-current-landscape.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/stay-current-portrait.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/stay-primary-landscape.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/stay-primary-portrait.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/stop-screen-share.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/stop.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/storage.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/store-mall-directory.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/store.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/straighten.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/streetview.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/strikethrough-s.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/style.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/subdirectory-arrow-left.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/subdirectory-arrow-right.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/subject.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/subscriptions.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/subtitles.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/subway.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/supervised-user-circle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/supervisor-account.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/surround-sound.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/swap-calls.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/swap-horizontal-circle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/swap-horiz.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/swap-vertical-circle.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/swap-vert.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/switch-camera.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/switch-video.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sync-disabled.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sync-problem.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/sync.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/system-update.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/table-chart.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/tablet-android.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/tablet-mac.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/tablet.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/tab.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/tab-unselected.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/tag-faces.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/tap-and-play.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/terrain.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/text-fields.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/text-format.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/text-rotate-up.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/text-rotate-vertical.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/text-rotation-down.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/text-rotation-none.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/textsms.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/texture.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/theaters.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/thumb-down-alt.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/thumb-down.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/thumbs-up-down.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/thumb-up-alt.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/thumb-up.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/timelapse.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/timeline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/timer-10.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/timer-3.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/timer-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/timer.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/time-to-leave.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/title.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/toc.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/today.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/toggle-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/toggle-on.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/toll.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/tonality.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/touch-app.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/toys.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/track-changes.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/traffic.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/train.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/tram.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/transfer-within-a-station.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/transform.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/transit-enterexit.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/translate.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/trending-down.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/trending-flat.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/trending-up.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/trip-origin.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/tune.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/turned-in-not.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/turned-in.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/tv-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/tv.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/unarchive.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/undo.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/unfold-less.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/unfold-more.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/unsubscribe.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/update.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/usb.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/verified-user.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/vertical-align-bottom.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/vertical-align-center.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/vertical-align-top.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/vertical-split.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/vibration.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/video-call.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/videocam-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/videocam.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/videogame-asset.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/video-label.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/video-library.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/view-agenda.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/view-array.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/view-carousel.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/view-column.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/view-comfy.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/view-compact.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/view-day.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/view-headline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/view-list.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/view-module.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/view-quilt.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/view-stream.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/view-week.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/vignette.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/visibility-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/visibility.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/voice-chat.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/voicemail.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/voice-over-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/volume-down.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/volume-mute.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/volume-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/volume-up.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/vpn-key.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/vpn-lock.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/wallpaper.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/warning.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/watch-later.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/watch.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/waves.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/wb-auto.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/wb-cloudy.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/wb-incandescent.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/wb-iridescent.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/wb-sunny.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/wc.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/web-asset.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/web.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/weekend.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/whatshot.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/where-to-vote.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/widgets.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/wifi-lock.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/wifi-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/wifi.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/wifi-tethering.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/work-off.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/work-outline.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/work.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/wrap-text.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/youtube-searched-for.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/zoom-in.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/zoom-out-map.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/icons/material-round/svg/zoom-out.svg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.qt/rcc/resources.qrc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/qtquickcontrols2.conf",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"path" : "resources/logo.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.qt/rcc/qmake_Game.qrc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/Game/qmldir",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.qt/rcc/Crosswords_raw_qml_0.qrc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.qt/rcc/Crosswords_raw_qml_0_extra_qmldirs.qrc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 106,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/Game/controls/qmldir",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 106,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/Game/pages/qmldir",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/Crosswords_autogen/timestamp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.qt/rcc/qrc_resources.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/meta_types/qt6crosswords_debug_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/crosswords_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.qt/rcc/qrc_qmake_Game.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_Main_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_controls/ButtonAction_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_controls/CrosswordsItemDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_controls/HeaderBar_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_controls/Page_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_controls/ScrollablePage_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_controls/TextAlert_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_pages/CrosswordsGamePage_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.rcc/qmlcache/Crosswords_pages/CrosswordsListPage_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.qt/rcc/qrc_Crosswords_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/.qt/rcc/qrc_Crosswords_raw_qml_0_extra_qmldirs.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/Crosswords_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_8_2_for_macOS-Debug/meta_types/Crosswords_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 38,
+			"path" : "/opt/Qt/6.8.2/macos/metatypes/qt6core_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 25,
+			"path" : "/opt/Qt/6.8.2/macos/metatypes/qt6qml_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 25,
+			"path" : "/opt/Qt/6.8.2/macos/metatypes/qt6network_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/opt/Qt/6.8.2/macos/metatypes/qt6quick_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/opt/Qt/6.8.2/macos/metatypes/qt6gui_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/opt/Qt/6.8.2/macos/metatypes/qt6qmlmeta_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/opt/Qt/6.8.2/macos/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/opt/Qt/6.8.2/macos/metatypes/qt6qmlworkerscript_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/opt/Qt/6.8.2/macos/metatypes/qt6opengl_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/opt/Qt/6.8.2/macos/metatypes/qt6sql_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

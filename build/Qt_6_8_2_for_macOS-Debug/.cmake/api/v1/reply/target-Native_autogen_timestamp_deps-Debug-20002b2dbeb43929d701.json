@@ -1,0 +1,31 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"Native/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "Native_autogen_timestamp_deps::@509bb50593089c5e03d6",
+	"isGeneratorProvided" : true,
+	"name" : "Native_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "Native",
+		"source" : "Native"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
