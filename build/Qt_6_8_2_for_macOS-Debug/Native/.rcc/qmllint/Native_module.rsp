@@ -1,8 +1,0 @@
--I
-/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug
--I
-/opt/Qt/6.8.2/macos/qml
---resource
-/Users/marssola/Developer/rask-project/BibleGame/build/Qt_6_8_2_for_macOS-Debug/Native/.qt/rcc/qmake_Native.qrc
---module
-Native

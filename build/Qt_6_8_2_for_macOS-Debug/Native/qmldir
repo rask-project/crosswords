@@ -1,7 +1,0 @@
-module Native
-linktarget Nativeplugin
-optional plugin Nativeplugin
-classname NativePlugin
-typeinfo Native.qmltypes
-prefer :/qt/qml/Native/
-
