@@ -1,4 +1,4 @@
-add_executable(TestCrosswordsRepository TestCrosswordsRepository.cpp)
+add_executable(TestCrosswordsRepository TestCrosswordsRepository.cpp main.cpp)
 
 target_link_libraries(TestCrosswordsRepository PRIVATE
     gtest_main
