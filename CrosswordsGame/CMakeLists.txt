@@ -73,3 +73,12 @@ install(TARGETS ${PROJECT_NAME}
 #     DEPLOY_USER_QML_MODULES_ON_UNSUPPORTED_PLATFORM
 # )
 # install(SCRIPT ${deploy_script})
+
+
+
+
+
+if(BUILD_TESTING)
+    add_subdirectory(tests)
+endif()
+

@@ -1,5 +1,32 @@
 cmake_minimum_required(VERSION 3.16)
 
+# Include dependency management module
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+include(Dependencies)
+include(CodeCoverage)
+
+# Options for building tests and enabling code coverage
+option(BUILD_TESTING "Build the tests" ON)
+option(ENABLE_COVERAGE "Enable code coverage with GCOV" OFF)
+
+# Download and configure GTest and GMock if tests are enabled
+if(BUILD_TESTING)
+    add_dep(
+        NAME gtest
+        URL https://github.com/google/googletest.git
+        TAG release-1.11.0 # Use a specific tag for stability
+    )
+    enable_testing()
+endif()
+
+# Configure GCOV flags if code coverage is enabled
+if(ENABLE_COVERAGE)
+    message(STATUS "Code coverage enabled with GCOV")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage")
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fprofile-arcs -ftest-coverage")
+    set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -fprofile-arcs -ftest-coverage")
+endif()
+
 project(Crosswords
     VERSION 1.0.0
     LANGUAGES CXX
@@ -15,6 +42,12 @@ qt_standard_project_setup(REQUIRES 6.8)
 
 add_subdirectory(CrosswordsGame)
 add_subdirectory(Native)
+
+if(ENABLE_COVERAGE)
+    add_coverage_target(${PROJECT_NAME})
+endif()
+
+# add_subdirectory(tests) # Tests will be included per module now
 
 qt_add_executable(${PROJECT_NAME}
     main.cpp
@@ -76,3 +109,4 @@ install(TARGETS ${PROJECT_NAME}
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+

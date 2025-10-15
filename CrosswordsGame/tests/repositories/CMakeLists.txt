@@ -1,0 +1,16 @@
+add_executable(TestCrosswordsRepository TestCrosswordsRepository.cpp)
+
+target_link_libraries(TestCrosswordsRepository PRIVATE
+    gtest_main
+    gmock_main
+    CrosswordsGame # Link against the library of the module being tested
+    Qt6::Sql
+)
+
+# Include directories for mocks and the code to be tested
+target_include_directories(TestCrosswordsRepository PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../../CrosswordsGame # Adjust path to CrosswordsGame module
+)
+
+add_test(NAME TestCrosswordsRepository COMMAND TestCrosswordsRepository)
+
