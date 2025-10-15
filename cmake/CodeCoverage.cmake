@@ -34,7 +34,7 @@ function(add_coverage_target target_name)
     # Adds a custom target to run tests and collect coverage data
     add_custom_target(${target_name}_coverage_run
         COMMAND ${CMAKE_CTEST_COMMAND} --output-on-failure
-        COMMAND ${LCOV_PATH} --capture --directory ${CMAKE_BINARY_DIR} --output-file ${COVERAGE_DIR}/${target_name}.info
+        COMMAND ${LCOV_PATH} --capture --directory ${CMAKE_BINARY_DIR} --output-file ${COVERAGE_DIR}/${target_name}.info --ignore-errors mismatch
         COMMAND ${LCOV_PATH} --remove ${COVERAGE_DIR}/${target_name}.info "*/Qt*/*" "*/usr/*" "*moc_*.cpp" "*qrc_*.cpp" "*qml_*.cpp" --output-file ${COVERAGE_DIR}/${target_name}_filtered.info
         COMMAND ${GENHTML_PATH} ${COVERAGE_DIR}/${target_name}_filtered.info --output-directory ${COVERAGE_DIR}/${target_name}_report
         WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
