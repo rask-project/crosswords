@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-test:
-    name: Build and test (Qt 6.8.0)
+    name: Build and test (Qt 6.8.3)
     runs-on: ubuntu-latest
     env:
       QT_QPA_PLATFORM: offscreen
@@ -38,14 +38,13 @@ jobs:
             libxcb-xfixes0 \
             libxcb1
 
-      - name: Set up Qt 6.8.0
+      - name: Set up Qt 6.8.3
         id: install-qt
         uses: jurplel/install-qt-action@v4
         with:
-          version: '6.8.0'
+          version: '6.8.3'
           host: linux
           arch: gcc_64
-          modules: qtdeclarative qtsql
           cache: true
 
       - name: Configure (CMake)
@@ -71,7 +70,7 @@ jobs:
       - name: Upload coverage artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: coverage-6.8.0
+          name: coverage-6.8.3
           path: |
             build/coverage/Crosswords.info
             build/coverage/Crosswords_filtered.info
