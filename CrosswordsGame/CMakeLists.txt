@@ -53,7 +53,7 @@ qt_add_resources(${PROJECT_NAME} sql
 )
 
 target_link_libraries(${PROJECT_NAME}
-    PRIVATE
+    PUBLIC
         Qt6::Core
         Qt6::Quick
         Qt6::Sql

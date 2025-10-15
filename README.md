@@ -47,6 +47,26 @@ crosswords/
     └── qtquickcontrols2.conf
 ```
 
+## Code Coverage Reports
+
+To generate coverage reports you must configure the project with coverage enabled, build the tests, and then run the custom
+coverage target created by CMake:
+
+```bash
+cmake -S . -B build -DENABLE_COVERAGE=ON
+cmake --build build --target TestCrosswordsGame
+cmake --build build --target TestCrosswordsGame_coverage_run
+```
+
+Running the coverage target executes the unit tests and uses `gcovr` with detailed HTML, LCOV, and Cobertura XML outputs. The
+artifacts are generated under `build/coverage/`:
+
+- `index.html`: Human-friendly HTML coverage report with per-file details.
+- `lcov.info`: LCOV file, suitable for tools that consume the LCOV format.
+- `coverage.xml`: Cobertura XML report, which can be published to services such as SonarQube/SonarCloud.
+
+You can adapt the commands above to the build directory or targets relevant to your platform if they differ from the defaults.
+
 -   **`CMakeLists.txt`**: The primary CMake configuration file for the entire project.
 -   **`Main.qml`**: The main QML file that defines the application window and manages navigation between different pages using a `StackView`.
 -   **`Native/`**: Contains C++ code for platform-specific integrations, particularly for Android functionalities (e.g., status bar color, splash screen). This leverages JNI for interacting with Android APIs.

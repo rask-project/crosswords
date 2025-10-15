@@ -3,6 +3,7 @@
 #include <QSqlQuery>
 #include <QSqlError>
 #include <QJsonDocument>
+#include <QRandomGenerator>
 #include "CrosswordsGame/repositories/CrosswordsRepository.h"
 #include "CrosswordsGame/viewmodels/Crosswords.h"
 
@@ -13,7 +14,8 @@ protected:
 
     void SetUp() override {
         // Use a unique connection name for each test to ensure isolation
-        const QString connectionName = QString("test_connection_%1").arg(qrand());
+        const QString connectionName = QString("test_connection_%1")
+                                           .arg(QRandomGenerator::global()->generate());
         m_db = QSqlDatabase::addDatabase("QSQLITE", connectionName);
         m_db.setDatabaseName(":memory:");
 
