@@ -39,6 +39,7 @@ jobs:
             libxcb1
 
       - name: Set up Qt 6.8.0
+        id: install-qt
         uses: jurplel/install-qt-action@v4
         with:
           version: '6.8.0'
@@ -48,6 +49,8 @@ jobs:
           cache: true
 
       - name: Configure (CMake)
+        env:
+          CMAKE_PREFIX_PATH: ${{ steps.install-qt.outputs.Qt6_DIR }}
         run: |
           cmake -S . -B build \
             -G Ninja \
